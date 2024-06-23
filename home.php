@@ -84,7 +84,13 @@
                                                     <a class="nav-link active" aria-current="true" href="#">Active</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#">Link</a>
+                                                    <a class="nav-link" aria-current="true" href="#">Book</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Check in</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Flight status</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
