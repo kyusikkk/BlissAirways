@@ -28,7 +28,7 @@
     #container_top  {
         margin-top:6rem;
         opacity: 90%;
-        width: 90rem;
+        width: 90rem;       
     }
 
    </style>
@@ -78,79 +78,81 @@
                     <div class="carousel-item">
                         <img src="assets/redd-f-nTBW1cOY1qI-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="col pt-6 p-3">
-                    <div id="container_top" class="container px-4 text-center ">
-                        <div class="col-sm-6 col-md-7">     
-                            <div class="card text-center ">
-                                    <div class="card text-center">
-                                        <div class="card-header">
-                                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Book</button>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Manage</button>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Check in</button>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Flight Status</button>
-                                            </li>
-                                            </ul>
 
-                                            <div class="tab-content" id="myTabContent">
-                                                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                                    <div class="row g-2 mt-2">
-                                                        <div class="col-md">
-                                                            <div class="form-floating">
-                                                            <select class="form-select" id="floatingSelectGrid">
-                                                                <option value="1">Round trip</option>
-                                                                <option value="2">One Way</option>
-                                                                <option value="3">Multi City</option>
-                                                            </select>
-                                                            <label for="floatingSelectGrid">Itinerary</label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md">
-                                                            <div class="form-floating">
-                                                            <select class="form-select" id="floatingSelectGrid">
-                                                                <option value="1">Economy</option>
-                                                                <option value="2">Business</option>
-                                                                <option value="3">First</option>
-                                                            </select>
-                                                            <label for="floatingSelectGrid">Cabin Classes</label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row g-2 mt-1 mb-2">
-                                                            <div class="col-md-6">
+                    <div class="container text-center">
+                        <div class="row align-items-start">
+                            <div class="col">
+                                <div id="container_top" class="container px-4 text-center">
+                                    <div class="col-sm-6 col-md-7">     
+                                        <div class="card text-center ">
+                                            <div class="card-header">
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Book</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Manage</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Check in</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Flight Status</button>
+                                                </li>
+                                                </ul>
+
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                                        <div class="row g-2 mt-2">
+                                                            <div class="col-md">
                                                                 <div class="form-floating">
-                                                                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
-                                                                    <label for="floatingInputGrid">Fying From</label>
+                                                                <select class="form-select" id="floatingSelectGrid">
+                                                                    <option value="1">Round trip</option>
+                                                                    <option value="2">One Way</option>
+                                                                    <option value="3">Multi City</option>
+                                                                </select>
+                                                                <label for="floatingSelectGrid">Itinerary</label>
                                                                 </div>
+                                                            </div>
+                                                            <div class="col-md">
+                                                                <div class="form-floating">
+                                                                <select class="form-select" id="floatingSelectGrid">
+                                                                    <option value="1">Economy</option>
+                                                                    <option value="2">Business</option>
+                                                                    <option value="3">First</option>
+                                                                </select>
+                                                                <label for="floatingSelectGrid">Cabin Classes</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row g-2 mt-1 mb-2">
+                                                            <div class="col-md-6">
+                                                                    <div class="form-floating">
+                                                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                                                                        <label for="floatingInputGrid">Fying From</label>
+                                                                    </div>
                                                             </div>   
                                                             <div class="col-md-6">
-                                                                <div class="form-floating">
-                                                                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
-                                                                    <label for="floatingInputGrid">Fying To</label>
-                                                                </div>
+                                                                    <div class="form-floating">
+                                                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                                                                        <label for="floatingInputGrid">Fying To</label>
+                                                                    </div>
                                                             </div>       
-                                                    </div>   
+                                                        </div>   
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                                            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                                                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                                                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                                                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        <div class="col-6 col-md-4"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>      
 
         <section id="packages" class="pt-md-5">
@@ -188,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container mb-5">
                     <div class="row">
                         <div class="col-4">
                             <div class="card" style="width: 25rem;">
@@ -216,13 +218,150 @@
                         </div>
                     </div>
                 </div>
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-7 ">
+                            <div class="card mb-3" style="max-width: 44rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 44rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/christoph-schulz-7tb-b37yHx4-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-5">
+                            <div class="card" style="width: 32rem">
+                                <img src="assets/alexa-west-OOTEpsO2eV0-unsplash.jpg" style="height: 45rem" class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-start">Tour</h5>
+                                    <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>     
+                    </div> 
+                </div>
+                <div class="container mb-5">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Accordion Item #1
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Accordion Item #3
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
-        <div class="container px-4 text-center">
-            <div class="col-sm-6 col-md-12">
-                
-            </div>
-            <div class="col-6 col-md-4"></div>
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                    </form>
+                </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+                </div>
+            </footer>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
     </body>
