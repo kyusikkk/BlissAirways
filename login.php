@@ -18,7 +18,7 @@
         height:100%;
     }
    </style>
-   <div class="signup_form">
+   <div class="login-form">
     <div class="wrapper">
         <div class="container main">
           <div class="row">
@@ -30,15 +30,7 @@
             </div>
             <div class="col-md-6 right">
               <div class="input-box">
-                <header>Create Account</header>
-                <div class="input-field">
-                  <input type="text" class="input" id="firstName" required autocomplete="off">
-                  <label for="firstName">First Name</label>
-                </div>
-                <div class="input-field">
-                  <input type="text" class="input" id="lastName" required autocomplete="off">
-                  <label for="lastName">Last Name</label>
-                </div>
+                <header>Login</header>
                 <div class="input-field">
                   <input type="text" class="input" id="email" required autocomplete="off">
                   <label for="email">Email</label>
@@ -48,10 +40,10 @@
                   <label for="password">Password</label>
                 </div>
                 <div class="input-field">
-                  <input type="submit" class="submit" value="Sign Up">
+                  <input type="submit" class="submit" value="Log In">
                 </div>
                 <div class="signin">
-                  <span>Already have an account? <a href="login.php">Log in here</a></span>
+                  <span>Create an Account? <a href="index.php">Sign up here</a></span>
                 </div>
               </div> 
             </div>
