@@ -27,6 +27,8 @@
     
     #container_top  {
         margin-top:6rem;
+        opacity: 90%;
+        width: 90rem;
     }
 
    </style>
@@ -96,8 +98,34 @@
                                                 <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Flight Status</button>
                                             </li>
                                             </ul>
+
                                             <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+                                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">$</span>
+                                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                                    <span class="input-group-text">.00</span>
+                                                 </div>
+
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                                                    <span class="input-group-text">@</span>
+                                                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                                                </div>
+
+                                                <div class="input-group">
+                                                    <span class="input-group-text">With textarea</span>
+                                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                                </div>
+                                            </div>
+
+
+
                                             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
                                             <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
                                             <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
@@ -108,69 +136,79 @@
                         <div class="col-6 col-md-4"></div>
                     </div>
                 </div>
-                </div>
-            </div>      
-
-            <div class="grid text-center">
-                <div class="g-col-6 g-col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-col-6 g-col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-col-6 g-col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
             </div>
+        </div>      
+
+        <section id="packages" class="pt-md-5">
+            <div class="grid text-center">
+                <h2 class="text-center my-2">Top Deals</h2>
+
+                <div class="container mt-3 mb-5">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 25rem;">
+                                    <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text h4 text-start">Amsterdam</P>
+                                    <p class="card-text h6 text-start">$1,259</P>
+                                </div>
+                            </div>     
+                        </div>
+                        <div class="col-4">
+                        <div class="card" style="width: 25rem">
+                                    <img src="assets/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text h4 text-start">London</P>
+                                    <p class="card-text h6 text-start">$1,159</P>
+                                </div>
+                            </div>         
+                        </div>
+                        <div class="col-4">
+                        <div class="card" style="width: 25rem;">
+                                    <img src="assets/matthew-waring-dM_e5u-SM0U-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text h4 text-start">Athens</P>
+                                    <p class="card-text h6 text-start">$1,559</P>
+                                </div>
+                            </div>         
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 25rem;">
+                                    <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>     
+                        </div>
+                        <div class="col-4">
+                        <div class="card" style="width: 25rem">
+                                    <img src="assets/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>         
+                        </div>
+                        <div class="col-4">
+                        <div class="card" style="width: 25rem;">
+                                    <img src="assets/matthew-waring-dM_e5u-SM0U-unsplash.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>         
+                        </div>
+                    </div>
+                </div>
+        </section>
 
         <div class="container px-4 text-center">
             <div class="col-sm-6 col-md-12">
-                <div class="card text-center">
-                        <div class="card text-center">
-                                <div class="card-header">
-                                    <ul class="nav nav-tabs card-header-tabs">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="true" href="#">Active</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                
+            </div>
+            <div class="col-6 col-md-4"></div>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
     </body>
