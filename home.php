@@ -14,12 +14,21 @@
     <body>
     <style>
     body{
-        background-image: url('assets/pascal-meier-UYiesSO4FiM-unsplash.jpg');
+        background-image: url('');
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
         height:100vh;
     }
+
+    .carousel-inner {
+                height:32rem;
+            }
+    
+    #container_top  {
+        margin-top:6rem;
+    }
+
    </style>
         <div id="navigation">
             <nav class="navbar navbar-expand-md bg-body">
@@ -52,12 +61,6 @@
                 </div>
             </nav>
         </div>
-
-        <style>
-            .carousel-inner {
-                height:32rem;
-            }
-        </style>
         
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -70,53 +73,71 @@
                     <div class="carousel-item">
                     <img src="assets/bao-menglong--FhoJYnw-cg-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
-                </div>
-            </div>      
-        
-        <div class="col pt-3 p-3">
-            <div class="container px-4 text-center">
-                <div class="col-sm-6 col-md-8">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="assets/nastya-dulhiier-3Ze88tZX-p0-unsplash.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="assets/bao-menglong--FhoJYnw-cg-unsplash.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                    </div>      
-        
-                    <div class="card text-center">
+                    <div class="col pt-6 p-3">
+                    <div id="container_top" class="container px-4 text-center">
+                        <div class="col-sm-6 col-md-7">     
                             <div class="card text-center">
-                                    <div class="card-header">
-                                        <ul class="nav nav-tabs card-header-tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" href="#">Active</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Link</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                                        </li>
-                                        </ul>
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Special title treatment</h5>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <div class="card text-center">
+                                            <div class="card-header">
+                                                <ul class="nav nav-tabs card-header-tabs">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="true" href="#">Active</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Special title treatment</h5>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        <div class="col-6 col-md-4"></div>
+                    </div>
+                </div>
+                </div>
+            </div>      
+
+            <div class="grid text-center">
+                <div class="g-col-6 g-col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                <div class="col-6 col-md-4"></div>
+                </div>
+                <div class="g-col-6 g-col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-col-6 g-col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
 
         <div class="container px-4 text-center">
             <div class="col-sm-6 col-md-12">
