@@ -65,20 +65,23 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="assets/nastya-dulhiier-3Ze88tZX-p0-unsplash.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/nastya-dulhiier-3Ze88tZX-p0-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/vidar-nordli-mathisen-ZYDhBqxJnJ8-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="assets/bao-menglong--FhoJYnw-cg-unsplash.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/redd-f-nTBW1cOY1qI-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="col pt-6 p-3">
                     <div id="container_top" class="container px-4 text-center">
                         <div class="col-sm-6 col-md-7">     
                             <div class="card text-center">
                                     <div class="card text-center">
-                                            <div class="card-header">
+                                        <div class="card-header">
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                             <li class="nav-item" role="presentation">
                                                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Book</button>
