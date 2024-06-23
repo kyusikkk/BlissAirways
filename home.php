@@ -101,7 +101,7 @@
 
                                             <div class="tab-content" id="myTabContent">
                                                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                                    <div class="row g-2">
+                                                    <div class="row g-2 mt-2">
                                                         <div class="col-md">
                                                             <div class="form-floating">
                                                             <select class="form-select" id="floatingSelectGrid">
@@ -109,7 +109,7 @@
                                                                 <option value="2">One Way</option>
                                                                 <option value="3">Multi City</option>
                                                             </select>
-                                                            <label for="floatingSelectGrid">Itenerary</label>
+                                                            <label for="floatingSelectGrid">Itinerary</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md">
