@@ -79,9 +79,9 @@
                         <img src="assets/redd-f-nTBW1cOY1qI-unsplash.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="col pt-6 p-3">
-                    <div id="container_top" class="container px-4 text-center">
+                    <div id="container_top" class="container px-4 text-center ">
                         <div class="col-sm-6 col-md-7">     
-                            <div class="card text-center">
+                            <div class="card text-center ">
                                     <div class="card text-center">
                                         <div class="card-header">
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -100,31 +100,45 @@
                                             </ul>
 
                                             <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                                <div class="input-group mb-3">
-                                                    <span class="input-group-text" id="basic-addon1">@</span>
-                                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                                                </div>
-
-                                                <div class="input-group mb-3">
-                                                    <span class="input-group-text">$</span>
-                                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                                                    <span class="input-group-text">.00</span>
-                                                 </div>
-
-                                                <div class="input-group mb-3">
-                                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                                                    <span class="input-group-text">@</span>
-                                                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-                                                </div>
-
-                                                <div class="input-group">
-                                                    <span class="input-group-text">With textarea</span>
-                                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                                    <div class="row g-2">
+                                                        <div class="col-md">
+                                                            <div class="form-floating">
+                                                            <select class="form-select" id="floatingSelectGrid">
+                                                                <option value="1">Round trip</option>
+                                                                <option value="2">One Way</option>
+                                                                <option value="3">Multi City</option>
+                                                            </select>
+                                                            <label for="floatingSelectGrid">Itenerary</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md">
+                                                            <div class="form-floating">
+                                                            <select class="form-select" id="floatingSelectGrid">
+                                                                <option value="1">Economy</option>
+                                                                <option value="2">Business</option>
+                                                                <option value="3">First</option>
+                                                            </select>
+                                                            <label for="floatingSelectGrid">Cabin Classes</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row g-2 mt-1 mb-2">
+                                                            <div class="col-md-6">
+                                                                <div class="form-floating">
+                                                                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                                                                    <label for="floatingInputGrid">Fying From</label>
+                                                                </div>
+                                                            </div>   
+                                                            <div class="col-md-6">
+                                                                <div class="form-floating">
+                                                                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                                                                    <label for="floatingInputGrid">Fying To</label>
+                                                                </div>
+                                                            </div>       
+                                                    </div>   
                                                 </div>
                                             </div>
-
-
 
                                             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
                                             <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
