@@ -228,9 +228,10 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                            <h5 class="card-title text-start">Unlock benefits with our PARIS2024 offer</h5>
+                                            <p class="card-text text-start">Sign up and save up to 10% on Economy and up to 5% on Business tickets.  </p>
+                                            <p class="card-text text-start">Valid for new bookings from 1 June 2023 to 30 June 2024, for travel until 30 June 2024.  </p>
+                                            <a href="#" class="btn btn-outline-primary">Discover more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -242,9 +243,9 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                            <h5 class="card-title text-start">Free Abu Dhabi stopover</h5>
+                                            <p class="card-text text-start">Break up a long flight with a free stopover in Abu Dhabi. Turn one holiday into two and stay for free for up to two nights at your choice of hotel in the bustling capital of the UAE. </p>
+                                            <a href="#" class="btn btn-outline-primary">Discover more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -354,7 +355,7 @@
                 </div>
 
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>© 2024 Company, Inc. All rights reserved.</p>
+                <p>© 2024 Bliss Airways Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
                     <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
