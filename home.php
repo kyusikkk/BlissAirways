@@ -138,7 +138,21 @@
                                                                         <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
                                                                         <label for="floatingInputGrid">Fying To</label>
                                                                     </div>
-                                                            </div>       
+                                                            </div>   
+                                                        </div>
+                                                        <div class="row g-2 mt-1 mb-2">
+                                                            <div class="col-md-6">
+                                                                    <div class="form-floating">
+                                                                        <input type="date" id="arrive" class="form-control" name="outbound" value="<?php echo date('Y-m-d'); ?>">
+                                                                        <label for="outbound" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Outbound</label>     
+                                                                    </div>
+                                                            </div>   
+                                                            <div class="col-md-6">
+                                                                    <div class="form-floating">
+                                                                        <input type="date" id="depart" class="form-control" name="return" value="<?php echo date('Y-m-d'); ?>">
+                                                                        <label for="return" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Return</label>    
+                                                                    </div>
+                                                            </div>        
                                                         </div>   
                                                     </div>
                                                 </div>

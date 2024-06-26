@@ -1,3 +1,4 @@
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -146,3 +147,27 @@ span a:hover {
   text-decoration: underline;
   color: #000;
 }
+
+.controls{
+	text-align: left;
+	position: relative;
+	input[type="text"],
+	input[type="email"],
+  input[type="number"],
+  input[type="date"],
+	input[type="tel"],
+	textarea,
+	button,
+	select{
+		padding: 12px;
+		font-size: 14px;
+		border: 1px solid $border;
+		width: 100%;
+		margin-bottom: 18px;
+		color: #888;
+		font-family: 'Lato', 'sans-serif';
+		font-size: 16px;
+		font-weight: 300;
+
+		
+	}
