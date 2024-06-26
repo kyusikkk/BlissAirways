@@ -166,8 +166,8 @@
                             <div class="card" style="width: 25rem;">
                                     <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text h4 text-start">Amsterdam</P>
-                                    <p class="card-text h6 text-start">$1,259</P>
+                                    <p class="card-text h4 text-start">Amsterdam - $1,259</P>
+                                    <p class="card-text text-start">Fly to Amsterdam: Where every journey lands in a masterpiece.</p>
                                 </div>
                             </div>     
                         </div>
@@ -175,8 +175,8 @@
                         <div class="card" style="width: 25rem">
                                     <img src="assets/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text h4 text-start">London</P>
-                                    <p class="card-text h6 text-start">$1,159</P>
+                                    <p class="card-text h4 text-start">London - $1,169</P>
+                                    <p class="card-text text-start">London awaits: Your gateway to timeless charm and modern wonders.</p>
                                 </div>
                             </div>         
                         </div>
@@ -184,8 +184,8 @@
                         <div class="card" style="width: 25rem;">
                                     <img src="assets/matthew-waring-dM_e5u-SM0U-unsplash.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text h4 text-start">Athens</P>
-                                    <p class="card-text h6 text-start">$1,559</P>
+                                    <p class="card-text h4 text-start">Athens - $1,559</P>
+                                    <p class="card-text text-start">Soar to the cradle of civilization and uncover ancient wonders.</p>
                                 </div>
                             </div>         
                         </div>
@@ -195,25 +195,28 @@
                     <div class="row">
                         <div class="col-4">
                             <div class="card" style="width: 25rem;">
-                                    <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="card-img-top" alt="...">
+                                    <img src="assets/artem-beliaikin-1K8pWXiRyIA-unsplash.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text h4 text-start">Moscow - $2,459</P>
+                                    <p class="card-text text-start">Elevate your journey to the heart of Russia's grand heritage</p>
                                 </div>
                             </div>     
                         </div>
                         <div class="col-4">
                         <div class="card" style="width: 25rem">
-                                    <img src="assets/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg" class="card-img-top" alt="...">
+                                    <img src="assets/manson-yim-4vf1KEkD7Gc-unsplash.jpg" style="height: 16.7rem" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text h4 text-start">Hong Kong - $1,200</P>
+                                    <p class="card-text text-start">Where East meets innovation and tradition amidst a skyline of dreams.</p>
                                 </div>
                             </div>         
                         </div>
                         <div class="col-4">
                         <div class="card" style="width: 25rem;">
-                                    <img src="assets/matthew-waring-dM_e5u-SM0U-unsplash.jpg" class="card-img-top" alt="...">
+                                    <img src="assets/dan-freeman-7Zb7kUyQg1E-unsplash.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text h4 text-start">Sydney - $1,999</P>
+                                    <p class="card-text text-start">Sydney: Where adventure meets the horizon in every flight.</p>
                                 </div>
                             </div>         
                         </div>
@@ -257,8 +260,8 @@
                             <div class="card" style="width: 32rem">
                                 <img src="assets/alexa-west-OOTEpsO2eV0-unsplash.jpg" style="height: 45rem" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title text-start">Tour</h5>
-                                    <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title text-start text-white fw-bold">Island Deals</h5>
+                                    <p class="card-text text-start text-white">Unwind in paradise with our island getaways—where sun, sand, and serenity await at unbeatable prices!</p>
                                 </div>
                             </div>
                         </div>     
@@ -269,36 +272,36 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                Accordion Item #1
+                                Bliss Airaways Lounge
                             </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <strong>Lounges at Charles de Gaulle Airport </strong> Search our airport lounges around the world – the perfect place to switch off before you take off. Help yourself to complimentary food and drinks, and rest, work or play before your flight.
                             </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                Accordion Item #2
+                                Upgrades and extras
                             </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <strong>Extra legroom, extra space or just extra easy?</strong> Whatever’s important to you when you travel, we’ve got a choice of extras to make flying with us even more comfortable and convenient.
                             </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                Accordion Item #3
+                                Wi-Fi on board: Free chat and unlimited data
                             </button>
                             </h2>
                             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <strong>Connect to Wi-Fi on board</strong> Keep in touch with family and friends while you fly, work from your seat or surf on social media. All Bliss Guest members receive access to a free Chat package for the duration of the flight. If you’re travelling in First or are an Bliss Guest Platinum member, you’ll receive complimentary Wi-Fi access on board. Bliss Guest Gold members will receive a 25% discount on retail packages
                             </div>
                             </div>
                         </div>
@@ -310,35 +313,35 @@
             <footer class="py-5">
                 <div class="row">
                 <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
+                    <h5>Detination and flights</h5>
                     <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Book flights</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Destinations</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">International flights</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Discover Europe</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Fare finder</a></li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
+                    <h5>About Bliss Airways</h5>
                     <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Corporate profile</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our sponsorships</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ethics and compliance</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sustainability</a></li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
+                    <h5>Useful links</h5>
                     <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">All extras and upgrades</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Baggage</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Payment Options</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Mobile Apps</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tax refund</a></li>
                     </ul>
                 </div>
 
