@@ -127,9 +127,11 @@ include 'config.php';
                 <thead>
                     <tr>
                         <th scope="col">Flight Number</th>
+                        <th scope="col">Name</th>
                         <th scope="col">Origin</th>
                         <th scope="col">Destination</th>
                         <th scope="col">Departure Time</th>
+                        <th scope="col">Return</th>
                         <th scope="col">Flight</th>
                     </tr>
                 </thead>
@@ -137,7 +139,7 @@ include 'config.php';
                <?php
                     if (isset($_SESSION['user_id'])) {
                         $user_id = $_SESSION['user_id'];
-                        $query = "SELECT id, flyingFrom, flyingTo, outboundDate FROM booking WHERE users_id = ? ORDER BY id";
+                        $query = "SELECT id, firstname, lastname, flyingFrom, flyingTo, outboundDate, returnDate FROM booking WHERE users_id = ? ORDER BY id";
                         $stmt = $conn->prepare($query);
                         $stmt->bind_param("i", $user_id);
                         $stmt->execute();
@@ -147,8 +149,10 @@ include 'config.php';
                             echo '<tr>';
                             $index++;
                             echo '<td>' . $index . '</td>';
+                            echo '<td>' . htmlspecialchars($row['firstname']) ." " .htmlspecialchars($row['lastname']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['flyingFrom']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['flyingTo']) . '</td>';
+                            echo '<td>' . htmlspecialchars($row['returnDate']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['outboundDate']) . '</td>';
                             echo '<td><button class="btn btn-danger btn-sm cancel-flight" data-id="' . htmlspecialchars($row['id']) . '">Cancel</button></td>';
                             echo '</tr>';
