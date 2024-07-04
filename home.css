@@ -1,3 +1,20 @@
+body{
+  background-image: url('');
+  background-size: cover;
+  background-position:  center;
+  background-attachment: fixed;
+  height:100vh;
+}
+
+.carousel-inner {
+  height:32rem;
+      }
+
+#container_top  {
+  margin-top:6rem;
+  opacity: 90%;
+  width: 90rem;       
+}
 .montserrat-alternates-semibold {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
