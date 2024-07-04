@@ -217,8 +217,8 @@
                 <div class="container mt-3 mb-5">
                     <div class="row">
                         <div class="col-4">
-                            <div class="card" style="width: 25rem;">
-                                    <img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card" style="border: none; width: 25rem;">
+                                    <a href="dashboard.php"><img src="assets/adrien-olichon-QRtym77B6xk-unsplash.jpg" class="card-img-top" alt="..."></a>
                                 <div class="card-body">
                                     <p class="card-text h4 text-start">Amsterdam - $1,259</P>
                                     <p class="card-text text-start">Fly to Amsterdam: Where every journey lands in a masterpiece.</p>
@@ -226,8 +226,8 @@
                             </div>     
                         </div>
                         <div class="col-4">
-                        <div class="card" style="width: 25rem">
-                                    <img src="assets/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card" style="border: none; width: 25rem">
+                        <a href="dashboard.php"><img src="assets/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg" class="card-img-top" alt="..."></a>
                                 <div class="card-body">
                                     <p class="card-text h4 text-start">London - $1,169</P>
                                     <p class="card-text text-start">London awaits: Your gateway to timeless charm and modern wonders.</p>
@@ -235,8 +235,8 @@
                             </div>         
                         </div>
                         <div class="col-4">
-                        <div class="card" style="width: 25rem;">
-                                    <img src="assets/matthew-waring-dM_e5u-SM0U-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card" style="border: none; width: 25rem;">
+                        <a href="dashboard.php"><img src="assets/matthew-waring-dM_e5u-SM0U-unsplash.jpg" class="card-img-top" alt="..."></a>
                                 <div class="card-body">
                                     <p class="card-text h4 text-start">Athens - $1,559</P>
                                     <p class="card-text text-start">Soar to the cradle of civilization and uncover ancient wonders.</p>
@@ -248,8 +248,8 @@
                 <div class="container mb-5">
                     <div class="row">
                         <div class="col-4">
-                            <div class="card" style="width: 25rem;">
-                                    <img src="assets/artem-beliaikin-1K8pWXiRyIA-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card" style="border: none; width: 25rem;">
+                            <a href="dashboard.php"><img src="assets/artem-beliaikin-1K8pWXiRyIA-unsplash.jpg" class="card-img-top" alt="..."></a>
                                 <div class="card-body">
                                     <p class="card-text h4 text-start">Moscow - $2,459</P>
                                     <p class="card-text text-start">Elevate your journey to the heart of Russia's grand heritage</p>
@@ -257,8 +257,8 @@
                             </div>     
                         </div>
                         <div class="col-4">
-                        <div class="card" style="width: 25rem">
-                                    <img src="assets/manson-yim-4vf1KEkD7Gc-unsplash.jpg" style="height: 16.7rem" class="card-img-top" alt="...">
+                        <div class="card" style="border: none; width: 25rem">
+                        <a href="dashboard.php"><img src="assets/manson-yim-4vf1KEkD7Gc-unsplash.jpg" style="height: 16.7rem" class="card-img-top" alt="..."></a>
                                 <div class="card-body">
                                     <p class="card-text h4 text-start">Hong Kong - $1,200</P>
                                     <p class="card-text text-start">Where East meets innovation and tradition amidst a skyline of dreams.</p>
@@ -266,8 +266,8 @@
                             </div>         
                         </div>
                         <div class="col-4">
-                        <div class="card" style="width: 25rem;">
-                                    <img src="assets/dan-freeman-7Zb7kUyQg1E-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card" style="border: none; width: 25rem;">
+                        <a href="dashboard.php"><img src="assets/dan-freeman-7Zb7kUyQg1E-unsplash.jpg" class="card-img-top" alt="..."></a>
                                 <div class="card-body">
                                     <p class="card-text h4 text-start">Sydney - $1,999</P>
                                     <p class="card-text text-start">Sydney: Where adventure meets the horizon in every flight.</p>
@@ -279,10 +279,10 @@
                 <div class="container mb-5">
                     <div class="row">
                         <div class="col-7 ">
-                            <div class="card mb-3" style="max-width: 44rem;">
+                            <div class="card mb-3" style="border: none; max-width: 44rem;">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="assets/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                                    <a href="dashboard.php"><img src="assets/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" class="img-fluid rounded-start" alt="..."></a>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -294,10 +294,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-3" style="max-width: 44rem;">
+                            <div class="card mb-3" style="border: none; max-width: 44rem;">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="assets/christoph-schulz-7tb-b37yHx4-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                                    <a href="dashboard.php"><img src="assets/christoph-schulz-7tb-b37yHx4-unsplash.jpg" class="img-fluid rounded-start" alt="..."></a>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -311,8 +311,8 @@
                         </div>
 
                         <div class="col-sm-5">
-                            <div class="card" style="width: 32rem">
-                                <img src="assets/alexa-west-OOTEpsO2eV0-unsplash.jpg" style="height: 45rem" class="card-img" alt="...">
+                            <div class="card" style="border: none; width: 32rem">
+                            <a href="dashboard.php"><img src="assets/alexa-west-OOTEpsO2eV0-unsplash.jpg" style="height: 45rem" class="card-img" alt="..."></a>
                                 <div class="card-img-overlay">
                                     <h5 class="card-title text-start text-white fw-bold">Island Deals</h5>
                                     <p class="card-text text-start text-white">Unwind in paradise with our island getaways—where sun, sand, and serenity await at unbeatable prices!</p>

@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 include 'config.php';
 
 ?>
@@ -135,18 +134,19 @@ include 'config.php';
                     </tr>
                 </thead>
                 <tbody>
-                <?php
+               <?php
                     if (isset($_SESSION['user_id'])) {
                         $user_id = $_SESSION['user_id'];
-                        $query = "SELECT id, flyingFrom, flyingTo, outboundDate FROM booking WHERE users_id = ?";
+                        $query = "SELECT id, flyingFrom, flyingTo, outboundDate FROM booking WHERE users_id = ? ORDER BY id";
                         $stmt = $conn->prepare($query);
                         $stmt->bind_param("i", $user_id);
                         $stmt->execute();
                         $result = $stmt->get_result();
-
+                        $index = 0;
                         while ($row = $result->fetch_assoc()) {
                             echo '<tr>';
-                            echo '<td>' . htmlspecialchars($row['id']) . '</td>';
+                            $index++;
+                            echo '<td>' . $index . '</td>';
                             echo '<td>' . htmlspecialchars($row['flyingFrom']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['flyingTo']) . '</td>';
                             echo '<td>' . htmlspecialchars($row['outboundDate']) . '</td>';
@@ -492,26 +492,25 @@ include 'config.php';
  
 
     <script>
-        $(document).ready(function() {
-            $('.cancel-flight').on('click', function(e) {
-                e.preventDefault();
-                var flightId = $(this).data('id');
-
+    $(document).ready(function() {
+        $('.cancel-flight').on('click', function() {
+            var flight_id = $(this).data('id');
+            if (confirm('Are you sure you want to cancel this flight?')) {
                 $.ajax({
                     url: 'cancel_flight.php',
-                    type: 'POST',
-                    data: { flight_id: flightId },
+                    method: 'POST',
+                    data: { flight_id: flight_id },
                     success: function(response) {
-                        if (response == 'success') {
-                            alert('Flight canceled successfully.');
-                            location.reload();
-                        } else {
-                            alert('Error canceling flight. Please try again.');
-                        }
+                        alert(response);
+                        location.reload(); 
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
                     }
                 });
-            });
+            }
         });
+    });
 </script>
 </body>
 </html>
