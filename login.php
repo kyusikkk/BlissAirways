@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: home.php");
             exit();
         } else {
-            $error_message = "Invalid email or password.";
+            $error_message = "Wrong email or password.";
         }
     } else {
         $error_message = "Invalid email or password.";

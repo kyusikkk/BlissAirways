@@ -1,42 +1,52 @@
 <?php
 include 'config.php';
 
+$error_message = '';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $firstname = mysqli_real_escape_string($conn, $_POST['firstname']);
     $lastname = mysqli_real_escape_string($conn, $_POST['lastname']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
 
-    $check_email_query = "SELECT * FROM users WHERE email = ?";
-    $stmt = mysqli_prepare($conn, $check_email_query);
-    mysqli_stmt_bind_param($stmt, "s", $email);
-    mysqli_stmt_execute($stmt);
-    $result = mysqli_stmt_get_result($stmt);
 
-    if (mysqli_num_rows($result) > 0) {
-        $error_message = "This email is already registered.";
+    if (strlen($password) < 8) {
+        $error_message = "Password must be at least 8 characters long.";
     } else {
-        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+        $check_email_query = "SELECT * FROM users WHERE email = ?";
+        $stmt = mysqli_prepare($conn, $check_email_query);
+        mysqli_stmt_bind_param($stmt, "s", $email);
+        mysqli_stmt_execute($stmt);
+        $result = mysqli_stmt_get_result($stmt);
 
-  
-        $sql = "INSERT INTO users (firstname, lastname, email, password) VALUES (?, ?, ?, ?)";
-        $stmt = mysqli_prepare($conn, $sql);
-        mysqli_stmt_bind_param($stmt, "ssss", $firstname, $lastname, $email, $hashed_password);
-
-        if (mysqli_stmt_execute($stmt)) {
-            header("Location: login.php");
-            exit();
+        if (mysqli_num_rows($result) > 0) {
+            $error_message = "This email is already registered.";
         } else {
-            $error_message = "Error: " . mysqli_error($conn);
+
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+            $sql = "INSERT INTO users (firstname, lastname, email, password) VALUES (?, ?, ?, ?)";
+            $stmt = mysqli_prepare($conn, $sql);
+            mysqli_stmt_bind_param($stmt, "ssss", $firstname, $lastname, $email, $hashed_password);
+
+            if (mysqli_stmt_execute($stmt)) {
+                header("Location: login.php");
+                exit();
+            } else {
+                $error_message = "Error: " . mysqli_error($conn);
+            }
+
+            mysqli_stmt_close($stmt);
         }
 
         mysqli_stmt_close($stmt);
     }
 
-    mysqli_stmt_close($stmt);
     mysqli_close($conn);
 }
 ?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -80,6 +90,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="col-md-6 right">
               <div class="input-box">
                 <header style="font-size: 20px;">Create Account</header>
+                <?php if(!empty($error_message)): ?>
+                    <div class="alert alert-danger"><?php echo $error_message; ?></div>
+                <?php endif; ?>
                 <form action="" method="POST">
                     <div class="input-field">
                       <input type="text" class="input" id="firstName" name="firstname" required autocomplete="off">
@@ -90,9 +103,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                       <label for="lastName">Last Name</label>
                     </div>
                     <div class="input-field">
-                    <input type="text" class="input" id="email" name="email" required autocomplete="off">
-                    <label for="email">Email</label>
-                </div>
+                      <input type="text" class="input" id="email" name="email" required autocomplete="off">
+                      <label for="email">Email</label>
+                    </div>
                     <div class="input-field">
                       <input type="password" class="input" id="password" name="password" required>
                       <label for="password">Password</label>
