@@ -1,11 +1,6 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
-    header("Location: login.php");
-    exit();
-}
-
 include 'config.php';
 
 ?>
@@ -143,7 +138,7 @@ include 'config.php';
                 <?php
                     if (isset($_SESSION['user_id'])) {
                         $user_id = $_SESSION['user_id'];
-                        $query = "SELECT id, flyingFrom, flyingTo, outboundDate FROM booking WHERE id = ?";
+                        $query = "SELECT id, flyingFrom, flyingTo, outboundDate FROM booking WHERE users_id = ?";
                         $stmt = $conn->prepare($query);
                         $stmt->bind_param("i", $user_id);
                         $stmt->execute();
