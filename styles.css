@@ -157,7 +157,8 @@ span a:hover {
   input[type="date"],
 	input[type="tel"],
 	textarea,
-	button,
+	button
+  
 	select{
 		padding: 12px;
 		font-size: 14px;
@@ -169,4 +170,3 @@ span a:hover {
 		font-size: 16px;
 		font-weight: 300;
   }
-		
